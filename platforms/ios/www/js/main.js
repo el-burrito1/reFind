@@ -103,7 +103,7 @@ $(document).on('ready' , function(){
 			console.log('update fired');
 			$.ajax({
     		    	type: 'GET',
-    		    	url:"http://127.0.0.1:3000/updateuser",
+    		    	url:"http://hidden-brushlands-6469.herokuapp.com/updateuser",
     		    	data: {
     		    		_id        : userID,
     		    		userEvents : events || '',
@@ -247,7 +247,7 @@ $(document).on('ready' , function(){
 			console.log('inituser function fired');
 			$.ajax({
     		    	type: 'GET',
-    		    	url:"http://127.0.0.1:3000/inituser",
+    		    	url:"http://hidden-brushlands-6469.herokuapp.com/inituser",
     		    	data: {
     		    		userGender : gender,
     		    		_id        : userID,
@@ -260,6 +260,7 @@ $(document).on('ready' , function(){
     		    	contentType: 'application/json',
     		    	crossDomain: true,
     		    	success: function(data){
+    		    		console.log(data)
     		    		allArray      = data.all;
     		    		singleArray   = data.single;
     		    		coupleArray   = data.couples;
@@ -358,7 +359,7 @@ $(document).on('ready' , function(){
        function updatePreferenceSame(){
 			$.ajax({
     		    	type: 'GET',
-    		    	url:"http://127.0.0.1:3000/updateprefsame",
+    		    	url:"http://hidden-brushlands-6469.herokuapp.com/updateprefsame",
     		    	data: {
     		    		userGender : gender,
     		    		_id        : userID,
@@ -381,7 +382,7 @@ $(document).on('ready' , function(){
       function updatePreferenceOpposite(){
 			$.ajax({
    		    	type: 'GET',
-   		    	url:"http://127.0.0.1:3000/updateprefopposite",
+   		    	url:"http://hidden-brushlands-6469.herokuapp.com/updateprefopposite",
    		    	data: {
    		    		_id: userID,
    		    		test: 'hello'
@@ -417,7 +418,7 @@ $(document).on('ready' , function(){
 		function updateRelationshipSingle(){
 			$.ajax({
     		    	type: 'GET',
-    		    	url:"http://127.0.0.1:3000/updaterelationshipsingle",
+    		    	url:"http://hidden-brushlands-6469.herokuapp.com/updaterelationshipsingle",
     		    	data: {
     		    		_id: userID,
     		    		test: 'single'
@@ -437,7 +438,7 @@ $(document).on('ready' , function(){
 		function updateRelationshipCouple(){
 			$.ajax({
     		    	type: 'GET',
-    		    	url:"http://127.0.0.1:3000/updaterelationshipcouple",
+    		    	url:"http://hidden-brushlands-6469.herokuapp.com/updaterelationshipcouple",
     		    	data: {
     		    		_id: userID,
     		    		test: 'couple'

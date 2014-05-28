@@ -260,6 +260,7 @@ $(document).on('ready' , function(){
     		    	contentType: 'application/json',
     		    	crossDomain: true,
     		    	success: function(data){
+    		    		console.log(data)
     		    		allArray      = data.all;
     		    		singleArray   = data.single;
     		    		coupleArray   = data.couples;
