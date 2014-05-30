@@ -1,0 +1,19 @@
+2014-05-28 19:56:37.386 reFind[32943:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-28 19:56:37.393 reFind[32943:70b] Unlimited access to network resources
+2014-05-28 19:56:37.408 reFind[32943:70b] Init FacebookConnect Session
+2014-05-28 19:56:37.409 reFind[32943:70b] [CDVTimer][facebookconnectplugin] 0.575006ms
+2014-05-28 19:56:37.409 reFind[32943:70b] [CDVTimer][TotalPluginStartup] 0.892997ms
+2014-05-28 19:56:37.461 reFind[32943:70b] Resetting plugins due to page load.
+2014-05-28 19:56:38.496 reFind[32943:70b] Warning: you have included the Google Maps API multiple times on this page. This may cause unexpected errors.
+2014-05-28 19:56:38.496 reFind[32943:70b] ERROR: Method 'init:' not defined in Plugin 'org.apache.cordova.facebook.Connect'
+2014-05-28 19:56:38.497 reFind[32943:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "org.apache.cordova.facebook.Connect1390848265",
+  "org.apache.cordova.facebook.Connect",
+  "init",
+  [
+    "443530475777959"
+  ]
+]
+2014-05-28 19:56:38.501 reFind[32943:70b] I am tripping
+2014-05-28 19:56:38.530 reFind[32943:70b] Finished load of: file:///Users/spencer/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/01E82D1E-C3B7-4E8D-83AB-D35C3B6B3848/reFind.app/www/index.html
+2014-05-28 19:56:38.667 reFind[32943:70b] Endpoint saved GIF89a

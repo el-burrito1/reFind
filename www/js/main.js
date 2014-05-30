@@ -53,10 +53,10 @@ $(document).on('ready' , function(){
 
 			   
 		  } else if (response.status === 'not_authorized') {
-		     console.log('We will deal with this later');
+		     console.log('Not Authorized');
 		    $.mobile.pageContainer.pagecontainer('change' , '#login');
 		  } else {
-		  	console.log('I am tripping');
+		  	console.log('Not Authorized');
 		    $.mobile.pageContainer.pagecontainer('change' , '#login');
 		  }
 		});
